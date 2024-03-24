@@ -35,7 +35,7 @@ jobs:
       - name: 'Create env file'
         run: |
           touch .env
-          echo AssetPrefix="${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/" >> .env
+          echo AssetPrefix="https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/" >> .env
           cat .env
       - name: Detect package manager
         id: detect-package-manager
