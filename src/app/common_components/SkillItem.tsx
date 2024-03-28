@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import { ReactNode } from 'react';
 
 interface SkillItemProps {
     children: ReactNode;
