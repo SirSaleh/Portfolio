@@ -36,3 +36,8 @@ body {
   animation: avatar-in;
   transition: opacity 1s ease;
 }
+
+.skill-box {
+  border-radius: 10px;
+  padding: 0.25rem;
+}
