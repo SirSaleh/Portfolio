@@ -3,7 +3,6 @@ import SkillItem from "../common_components/SkillItem";
 import { ReactNode } from 'react';
 
 interface PortfolioFirstPageProps {
-    children: ReactNode;
 }
 
 export default function FirstPage(props: PortfolioFirstPageProps) {
