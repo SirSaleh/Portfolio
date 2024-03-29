@@ -12,7 +12,7 @@ export default function SkillItem(props: SkillItemProps) {
     const ClassNames = "skill-box bg-white text-black m-1 " + props.classNames;
     const titleVal = props.title ? props.title : "";
     return (
-    <span className={ClassNames} title={titleVal}>
+    <span className={ClassNames} title={String(titleVal)}>
         {props.children}
     </span>
   );
