@@ -28,6 +28,7 @@ export default function FirstPage(props: PortfolioFirstPageProps) {
                 <SkillItem classNames="!bg-white text-black">Jquery</SkillItem>
                 <SkillItem classNames="!bg-sky-600 text-white">Tailwind CSS</SkillItem>
                 <SkillItem classNames="!bg-violet-600 text-white">Bootstrap CSS</SkillItem>
+                <SkillItem classNames="!bg-green-500 text-pink-600">Raspberry Pi</SkillItem>
             </div>
             <div className="absolute bottom-0 left-1/2 md:left-auto md:right-0 md:top-1/2 translate-y-1/2 md:-translate-y-1/2 -translate-x-1/2 md:translate-x-1/2">
               <img src="1.jpg" className="rounded-full"></img>
