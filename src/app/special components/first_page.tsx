@@ -31,8 +31,8 @@ export default function FirstPage(props: PortfolioFirstPageProps) {
                 <SkillItem classNames="!bg-green-500 text-pink-600">Raspberry Pi</SkillItem>
                 <SkillItem classNames="!bg-white text-black bg-gradient-to-r from-blue-600 via-green-500 to-yellow-400">NeoPixel</SkillItem>
             </div>
-            <div className="absolute bottom-0 left-1/2 md:left-auto md:right-0 md:top-1/2 translate-y-1/2 md:-translate-y-1/2 -translate-x-1/2 md:translate-x-1/2">
-              <img src="1.jpg" className="rounded-full"></img>
+            <div className="absolute bottom-0 left-1/2 md:left-auto md:right-0 md:top-1/2 translate-y-1/2 md:-translate-y-1/2 -translate-x-1/4 md:translate-x-1/2">
+              <img src="1.jpg" className="rounded-full w-1/2 md:w-full"></img>
             </div>
         </div>
         <div className="w-screen md:w-1/5 h-1/5 md:h-screen bg-gray-600">
