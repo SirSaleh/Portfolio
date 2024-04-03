@@ -1,11 +1,21 @@
+"use client"
+
 import PortfolioSinglePager from "../common_components/portfolio_single_pager"
 import SkillItem from "../common_components/SkillItem";
-import { ReactNode } from 'react';
+import { ReactNode, useEffect } from 'react';
+import { animateBrick } from "../utils/animations";
 
 interface PortfolioFirstPageProps {
 }
 
 export default function FirstPage(props: PortfolioFirstPageProps) {
+
+    useEffect(() => {
+      const wrapperElement = document.getElementById('skill_holder');
+      if (wrapperElement) {
+        animateBrick(wrapperElement, 500);
+      }
+    }, []);
 
     return (
     <PortfolioSinglePager>
@@ -16,7 +26,7 @@ export default function FirstPage(props: PortfolioFirstPageProps) {
             <div className="text-white text-2xl align-middle text-center">
               Full-stack developer
             </div>
-            <div className="skillCloudBox w-1/2 md:w-1/4  flex flex-wrap justify-center content-center mt-3 text-white text-1xl align-middle text-center w-1/2 mx-auto">
+            <div id="skill_holder" className="skillCloudBox w-1/2 md:w-1/4  flex flex-wrap justify-center content-center mt-3 text-white text-1xl align-middle text-center w-1/2 mx-auto">
                 <SkillItem classNames="!text-white !bg-green-700">Django</SkillItem>
                 <SkillItem classNames="!bg-gray-500">Flask</SkillItem>
                 <SkillItem classNames="!bg-yellow-200 text-black">Javascript pure</SkillItem>

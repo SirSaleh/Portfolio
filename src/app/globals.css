@@ -41,4 +41,5 @@ body {
 .skill-box {
   border-radius: 10px;
   padding: 0.25rem;
+  transition: opacity 1s ease;
 }
