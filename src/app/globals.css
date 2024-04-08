@@ -42,4 +42,7 @@ body {
   border-radius: 10px;
   padding: 0.25rem;
   transition: opacity 1s ease;
+  transition: transform 1s ease;
+
+  text-align: center;
 }
