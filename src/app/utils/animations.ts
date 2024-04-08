@@ -1,5 +1,5 @@
 export async function animateBrick(wrapperInstance: HTMLElement,
-                delay: number, initialDelay: number): Promise<void> {
+                delay: number, initialDelay: number = 0): Promise<void> {
   const bricks = wrapperInstance.children as HTMLCollectionOf<HTMLElement>;
 
   await new Promise<void>((resolve) => setTimeout(resolve, initialDelay));
