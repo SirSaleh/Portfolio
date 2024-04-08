@@ -19,13 +19,14 @@ export default function WorkingStrategyPage(props: WorkingStrategyProps) {
             if (!isAnimated){
               isAnimated = true;
               const base_delay = 500;
+              const skill_count = 4;
               const wrapperElement = document.getElementById('soft_skill_holder');
               if (wrapperElement) {
-                animateBrick(wrapperElement, base_delay);
+                animateBrick(wrapperElement, base_delay, 0);
               }
               const targetElement = document.getElementById('target_element_holder');
               if (targetElement) {
-                animateBrick(targetElement, base_delay);
+                animateBrick(targetElement, base_delay, base_delay * (skill_count+1));
               }
             }
           }
@@ -49,7 +50,7 @@ export default function WorkingStrategyPage(props: WorkingStrategyProps) {
 and services
             </SkillItem>
             <div>
-              
+
             </div>
           </div>
         </div>

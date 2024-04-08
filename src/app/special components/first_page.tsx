@@ -13,7 +13,7 @@ export default function FirstPage(props: PortfolioFirstPageProps) {
     useEffect(() => {
       const wrapperElement = document.getElementById('skill_holder');
       if (wrapperElement) {
-        animateBrick(wrapperElement, 500);
+        animateBrick(wrapperElement, 500, 0);
       }
     }, []);
 
