@@ -29,7 +29,8 @@ export default function FirstPage(props: PortfolioFirstPageProps) {
             <div id="skill_holder" className="skillCloudBox w-1/2 md:w-1/4  flex flex-wrap justify-center content-center mt-3 text-white text-1xl align-middle text-center w-1/2 mx-auto [&_*]:opacity-0">
                 <SkillItem classNames="!text-white !bg-green-700">Django</SkillItem>
                 <SkillItem classNames="!bg-gray-500">Flask</SkillItem>
-                <SkillItem classNames="!bg-yellow-200 text-black">Javascript pure</SkillItem>
+                <SkillItem classNames="!bg-gray-500">Celery</SkillItem>
+                <SkillItem classNames="!bg-yellow-200 text-black">Javascript</SkillItem>
                 <SkillItem classNames="!bg-white text-sky-600">R</SkillItem>
                 <SkillItem classNames="!bg-white text-yellow-600">Linux</SkillItem>
                 <SkillItem classNames="!bg-yellow-500 text-black" title="EC2, S3, and lambda">AWS</SkillItem>
