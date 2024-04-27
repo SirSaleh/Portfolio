@@ -36,6 +36,7 @@ export default function FirstPage(props: PortfolioFirstPageProps) {
                 <SkillItem classNames="!bg-white text-yellow-600">Linux</SkillItem>
                 <SkillItem classNames="!bg-yellow-500 text-black" title="EC2, S3, and lambda">AWS</SkillItem>
                 <SkillItem classNames="!bg-green-600 text-white">NginX</SkillItem>
+                <SkillItem classNames="!bg-gray-600 text-white">Express.js</SkillItem>
                 <SkillItem classNames="!bg-white text-black">NextJS</SkillItem>
                 <SkillItem classNames="!bg-white text-black">Jquery</SkillItem>
                 <SkillItem classNames="!bg-sky-600 text-white">Tailwind CSS</SkillItem>
