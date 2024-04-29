@@ -31,7 +31,7 @@ export default function BitparsersIncPage(props: BitparsersIncProps) {
 
     return (
     <PortfolioSinglePager>
-        <div id="base_bitparsers_page" style={{background: "url(/Pics/bitparsers/Alexandre_st-Louis_toronto.jpg)"}} className="base-bitparsers-page w-full h-screen bg-black">
+        <div id="base_bitparsers_page" className="base-bitparsers-page w-full h-screen bg-black">
           <div className="w-screen h-screen flex flex-col md:flex-row justify-evenly p-4 text-left">
             <div id="bitparsers_description" className="bg-gray-900 bg-opacity-70 rounded-lg	 item-holder w-screen md:w-1/2 text-white m-auto text-sm flex flex-col justify-center p-10 m-auto">
               <div>
