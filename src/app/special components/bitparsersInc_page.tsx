@@ -39,9 +39,9 @@ export default function BitparsersIncPage(props: BitparsersIncProps) {
                   Bitparsers is a tech company located in Toronto, Canada. As a full-stack web developer and programmer at this company, I had a variety of responsibilities, including:
                 </p>
                 <ul>
-                  <li>Planning customers' use cases,</li>
+                  <li>Planning customers&apos; use cases,</li>
                   <li>Designing code architecture,</li>
-                  <li>Developing customers' websites and APIs,</li>
+                  <li>Developing customers&apos; websites and APIs,</li>
                   <li>Implementing unit tests,</li>
                   <li>Refactoring code,</li>
                   <li>Reviewing code written by other developers, and</li>
