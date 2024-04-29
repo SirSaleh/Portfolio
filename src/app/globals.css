@@ -59,11 +59,9 @@ ul {
   transition: opacity 1s ease;
 }
 
-.item-holder{
-  li{
-    color: gray;
-    font-size: 0.7rem;
-  }
+.item-holder li{
+  color: gray;
+  font-size: 0.7rem;
 }
 
 .base-bitparsers-page{
