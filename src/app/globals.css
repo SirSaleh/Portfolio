@@ -27,6 +27,15 @@ body {
     overflow-x: hidden; /* Hide scrollbars */
 }
 
+h1, h2, h3 {
+  font-weight: bold;
+}
+
+ul {
+  list-style-type: disc;
+  padding-left: 40px;
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;
@@ -48,4 +57,17 @@ body {
 
 .strategy-item{
   transition: opacity 1s ease;
+}
+
+.item-holder{
+  li{
+    color: gray;
+    font-size: 0.7rem;
+  }
+}
+
+.base-bitparsers-page{
+  background: url('/Pics/bitparsers/Alexandre_st-Louis_toronto.jpg') no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
