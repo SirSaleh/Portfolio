@@ -65,7 +65,7 @@ ul {
 }
 
 .base-bitparsers-page{
-  background-repeat: url('../../public/Pics/bitparsers/Alexandre_st-Louis_toronto.jpg') no-repeat;
+  background: url('../../public/Pics/bitparsers/Alexandre_st-Louis_toronto.jpg') no-repeat;
   background-size: cover;
   background-attachment: fixed;
 }
