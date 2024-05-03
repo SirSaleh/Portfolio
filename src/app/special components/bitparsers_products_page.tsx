@@ -10,29 +10,9 @@ interface BitparsersProductsProps {
 }
 
 export default function BitparsersProductsPage(props: BitparsersProductsProps) {
-
-    useEffect(() => {
-      let isAnimated = false;
-      window.addEventListener("scroll", function() {
-        const pageWrapperElement = document.getElementById('base_bitparsers_page');
-        if (pageWrapperElement){
-          if(window.scrollY >(pageWrapperElement.offsetHeight - pageWrapperElement.offsetTop / 2)){
-            if (!isAnimated){ //from here
-              isAnimated = true;
-              const base_delay = 500;
-              const wrapperElement = document.getElementById('bitparsers_description');
-              if (wrapperElement) {
-                animateBrick(wrapperElement, base_delay, 0);
-              }
-            }
-          }
-        }
-      });
-    }, []);
-
     return (
     <PortfolioSinglePager>
-        <div id="base_bitparsers_page" className="base-bitparsers-products-page w-full h-screen bg-black text-white">
+        <div id="base_bitparsers_products_page" className="base-bitparsers-products-page w-full h-screen bg-black text-white">
           <div className="h-screen flex flex-col justify-center">
             <SimplePortfolioGallery>
               <div>
