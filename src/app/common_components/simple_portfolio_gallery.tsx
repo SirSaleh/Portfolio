@@ -7,7 +7,7 @@ interface SimplePortfolioGalleryProps {
     children: ReactNode;
 }
 
-function generateSlide(index: number, slideData: HTMLCollectionOf<HTMLElement>){
+function generateSlide(index: number, slideData: any){
     const imgModifiedCSS = {
         maxWidth: '70vw',
         maxHeight: '70vh',
@@ -31,12 +31,18 @@ function generateSlide(index: number, slideData: HTMLCollectionOf<HTMLElement>){
     }
 }
 
-function goToSlide(holderElement: HTMLDivElement | null, index: number){
-    const slides = Array.from(holderElement.children);
+function goToSlide(holderElement: HTMLElement | null, index: number){
+    if (!holderElement){
+        return
+    }
+    const slides = Array.from(holderElement.children) as HTMLElement[];
     for (const slide of slides) {
+        if (!slide.style){
+            return
+        }
         slide.style.display = "none";
     }
-    holderElement.setAttribute("data-slide-index", index);
+    holderElement.setAttribute("data-slide-index", String(index));
     const normalizedIndex = index % slides.length;
     if (slides[normalizedIndex]){
         slides[normalizedIndex].style.display = "block";
@@ -53,6 +59,10 @@ export function SimplePortfolioGallery(props: SimplePortfolioGalleryProps){
         const imgHolderElement = imgHolderRef.current;
         const prevBtnButton = prevBtnRef.current;
         const nextBtnButton = nextBtnRef.current;
+
+        if (!imgHolderElement){
+            return
+        }
 
         if (imgHolderElement){
             goToSlide(imgHolderElement, 0);
