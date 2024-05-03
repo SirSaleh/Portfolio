@@ -61,11 +61,17 @@ ul {
 
 .item-holder li{
   color: gray;
-  font-size: 0.7rem;
+  font-size: 0.9rem;
 }
 
 .base-bitparsers-page{
   background: url('../../public/Pics/bitparsers/Alexandre_st-Louis_toronto.jpg') no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.base-abrbar-page{
+  background: url('../../public/Pics/abrbar/zetong_li_truck.jpg') no-repeat;
   background-size: cover;
   background-attachment: fixed;
 }
