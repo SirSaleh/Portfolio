@@ -9,8 +9,8 @@ interface SimplePortfolioGalleryProps {
 
 function generateSlide(index: number, slideData: any){
     const imgModifiedCSS = {
-        maxWidth: '70vw',
-        maxHeight: '70vh',
+        maxWidth: '50vw',
+        maxHeight: '50vh',
         marginBottom: '0.5rem',
     };
 
@@ -20,11 +20,15 @@ function generateSlide(index: number, slideData: any){
         }else{
             return (
                 <div style={{display: 'none'}}>
-                    {React.cloneElement(slideData.props.children[0], {
-                        style: { ...slideData.props.children[0].props.style, ...imgModifiedCSS },
-                        key: index,
-                    })}
+                    <div style={{minHeight: "70vh"}}>
+                        {React.cloneElement(slideData.props.children[0], {
+                            style: { ...slideData.props.children[0].props.style, ...imgModifiedCSS },
+                            key: index,
+                        })}
+                    </div>
+                    <div>
                     {slideData.props.children[1]}
+                    </div>
                 </div>
             )
         }
@@ -88,7 +92,7 @@ export function SimplePortfolioGallery(props: SimplePortfolioGalleryProps){
         <div className="w-screen text-center flex flex-row justify-center [&_*]:m-auto">
             <div className="cursor-pointer text-lg" ref={prevBtnRef}>{`◄`}</div>
 
-            <div data-slide-index="0" ref={imgHolderRef}>
+            <div data-slide-index="0" style={{width: "100vh", minHeight: '50vh'}} ref={imgHolderRef}>
                 {React.Children.map(props.children, (child, index) => {
                     return generateSlide(index, child);
                 })}
