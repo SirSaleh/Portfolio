@@ -36,7 +36,7 @@ export default function WorkingStrategyPage(props: WorkingStrategyProps) {
 
     return (
     <PortfolioSinglePager>
-        <div id="base_working_strategy" className="flex justify-evenly relative flex-col md:flex-row justify-center w-full h-screen bg-black">
+        <div id="base_working_strategy" className="flex justify-evenly relative flex-col md:flex-row justify-center w-full h-screen bg-black overflow-y-scroll">
           <div id="soft_skill_holder" className="flex flex-row md:flex-col flex-wrap justify-center  w-screen md:w-1/2 [&_*]:opacity-0 [&_*]:z-0 [&_*]:m-auto [&_*]:rounded-lg">
             <div className="text-white">My tools Are</div>
             <SkillItem classNames="strategy-item !p-10 !bg-yellow-300 w-screen md:w-1/2">Team work</SkillItem>
