@@ -36,6 +36,11 @@ ul {
   padding-left: 40px;
 }
 
+ul > li {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;

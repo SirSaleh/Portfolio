@@ -33,7 +33,7 @@ export default function BitparsersIncPage(props: BitparsersIncProps) {
     <PortfolioSinglePager>
         <div id="base_bitparsers_page" className="base-bitparsers-page w-full h-screen bg-black">
           <div className="w-screen h-screen flex flex-col md:flex-row justify-evenly p-4 text-left">
-            <div id="bitparsers_description" className="bg-gray-900 bg-opacity-70 rounded-lg	 item-holder w-screen md:w-1/2 text-white m-auto text-sm flex flex-col justify-center p-10 m-auto">
+            <div id="bitparsers_description" className="bg-gray-900 bg-opacity-70 rounded-lg	overflow-x-hidden	 item-holder w-3/4 md:w-1/2 text-white m-auto text-sm flex flex-col justify-center p-10 m-auto">
               <div>
                 <p>
                   Bitparsers is a tech company located in Toronto, Canada. As a full-stack web developer and programmer at this company, I had a variety of responsibilities, including:
