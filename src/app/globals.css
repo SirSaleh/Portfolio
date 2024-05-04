@@ -37,8 +37,8 @@ ul {
 }
 
 ul > li {
-  display: flex;
-  flex-wrap: wrap;
+  /* display: block; */
+  margin-right: 10px;
 }
 
 @layer utilities {

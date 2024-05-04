@@ -32,13 +32,13 @@ export default function BitparsersIncPage(props: BitparsersIncProps) {
     return (
     <PortfolioSinglePager>
         <div id="base_bitparsers_page" className="base-bitparsers-page w-full h-screen bg-black">
-          <div className="w-screen h-screen flex flex-col md:flex-row justify-evenly p-4 text-left">
-            <div id="bitparsers_description" className="bg-gray-900 bg-opacity-70 rounded-lg	overflow-x-hidden	 item-holder w-3/4 md:w-1/2 text-white m-auto text-sm flex flex-col justify-center p-10 m-auto">
+          <div className="w-screen h-screen flex flex-col justify-center items-center p-4 text-left">
+            <div id="bitparsers_description" className="bg-gray-900 bg-opacity-70 rounded-lg overflow-x-hidden overflow-y-scroll w-full md:w-3/4 text-white m-auto text-sm p-1">
               <div>
                 <p>
                   Bitparsers is a tech company located in Toronto, Canada. As a full-stack web developer and programmer at this company, I had a variety of responsibilities, including:
                 </p>
-                <ul>
+                <ul style={{ listStyleType: 'disc' }}>
                   <li>Planning customers&apos; use cases,</li>
                   <li>Designing code architecture,</li>
                   <li>Developing customers&apos; websites and APIs,</li>
@@ -53,9 +53,9 @@ export default function BitparsersIncPage(props: BitparsersIncProps) {
                 <ul>
                   <li>
                     Developing Websites and Web Services for other companies. Main Technologies:
-                    <SkillItem classNames="!text-white !bg-green-700">Django</SkillItem>
-                    <SkillItem classNames="!bg-green-600 text-white">NginX</SkillItem>
-                    <SkillItem classNames="!bg-white text-yellow-600">Linux</SkillItem>
+                    <SkillItem classNames="!text-white !bg-green-700">Django</SkillItem> &nbsp;
+                    <SkillItem classNames="!bg-green-600 text-white">NginX</SkillItem> &nbsp;
+                    <SkillItem classNames="!bg-white text-yellow-600">Linux</SkillItem> &nbsp;
                     <SkillItem classNames="!bg-yellow-500 text-black" title="EC2, S3, and lambda">AWS</SkillItem>
                   </li>
                   <li>Maintenance of Services</li>
@@ -66,10 +66,10 @@ export default function BitparsersIncPage(props: BitparsersIncProps) {
                 <ul>
                   <li>2 different Middleware Software for MadMapper (LightShifter and Lumos) with
                     a web-base control-panel; Main Technologies:
-                    <SkillItem classNames="!bg-gray-600 text-white">Express.js</SkillItem>
-                    <SkillItem classNames="!bg-green-600 text-white">NginX</SkillItem>
-                    <SkillItem classNames="!bg-lime-300 text-lime-800">Celery</SkillItem>
-                    <SkillItem classNames="!bg-white text-yellow-600">Linux</SkillItem>
+                    <SkillItem classNames="!bg-gray-600 text-white">Express.js</SkillItem> &nbsp;
+                    <SkillItem classNames="!bg-green-600 text-white">NginX</SkillItem> &nbsp;
+                    <SkillItem classNames="!bg-lime-300 text-lime-800">Celery</SkillItem> &nbsp;
+                    <SkillItem classNames="!bg-white text-yellow-600">Linux</SkillItem> &nbsp;
                     <SkillItem classNames="!text-white !bg-green-700">Django</SkillItem>
                   </li>
                   <li>A standalone light-mapping Software for RaspberryPi with a web-based control-panel. Main Technologies:
