@@ -31,9 +31,9 @@ export default function AbrbarPage(props: AbrbarProps) {
 
     return (
     <PortfolioSinglePager>
-        <div id="base_bitparsers_page" className="base-bitparsers-page w-full h-screen bg-black">
+        <div id="base_abrbar_page" className="base-abrbar-page w-full h-screen bg-black">
           <div className="w-screen h-screen flex flex-col justify-center items-center p-4 text-left">
-            <div id="bitparsers_description" className="bg-gray-900 bg-opacity-70 rounded-lg overflow-x-hidden overflow-y-scroll w-full md:w-3/4 text-white m-auto text-sm p-1">
+            <div id="abrbar_description" className="bg-gray-900 bg-opacity-70 rounded-lg overflow-x-hidden overflow-y-scroll w-full md:w-3/4 text-white m-auto text-sm p-1">
               <div>
                 <p>
                 Abrbar was a transportation company highly active in the transportation industry, specializing in heavy-scaled cargo, truck, drivers, and customer management.
