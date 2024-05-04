@@ -11,7 +11,6 @@ function generateSlide(index: number, slideData: any){
     const imgModifiedCSS = {
         maxWidth: '50vw',
         maxHeight: '50vh',
-        marginBottom: '0.5rem',
     };
 
     if (slideData){
@@ -20,14 +19,14 @@ function generateSlide(index: number, slideData: any){
         }else{
             return (
                 <div style={{display: 'none'}}>
-                    <div style={{minHeight: "70vh"}}>
+                    <div className="flex flex-col justify-center" style={{minHeight: "70vh"}}>
                         {React.cloneElement(slideData.props.children[0], {
                             style: { ...slideData.props.children[0].props.style, ...imgModifiedCSS },
                             key: index,
                         })}
                     </div>
                     <div>
-                    {slideData.props.children[1]}
+                        {slideData.props.children[1]}
                     </div>
                 </div>
             )
