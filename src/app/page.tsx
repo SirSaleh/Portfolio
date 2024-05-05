@@ -7,6 +7,7 @@ import AbrbarPage from "./special components/abrbar_page";
 import AbrbarProductsPage from "./special components/abrbar_products_page";
 import NextPager from "./special components/nextPager";
 import IrasographyPage from './special components/irasography_page';
+import IrasographyProductsPage from './special components/irasography_products_page';
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
       <AbrbarProductsPage></AbrbarProductsPage>
       <NextPager></NextPager>
       <IrasographyPage></IrasographyPage>
+      <IrasographyProductsPage></IrasographyProductsPage>
     </main>
   );
 }
