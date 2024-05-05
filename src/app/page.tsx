@@ -5,7 +5,8 @@ import BitparsersIncPage from "./special components/bitparsersInc_page"
 import BitparsersProductsPage from "./special components/bitparsers_products_page";
 import AbrbarPage from "./special components/abrbar_page";
 import AbrbarProductsPage from "./special components/abrbar_products_page";
-import NextPager from "./special components/nextPager"
+import NextPager from "./special components/nextPager";
+import IrasographyPage from './special components/irasography_page';
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
       <AbrbarPage></AbrbarPage>
       <AbrbarProductsPage></AbrbarProductsPage>
       <NextPager></NextPager>
+      <IrasographyPage></IrasographyPage>
     </main>
   );
 }

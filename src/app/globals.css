@@ -80,3 +80,9 @@ ul > li {
   background-size: cover;
   background-attachment: fixed;
 }
+
+.base-irasography-page{
+  background: url('../../public/Pics/Irasography/li_shanting_bg.jpg') no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
