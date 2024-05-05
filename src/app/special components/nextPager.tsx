@@ -13,7 +13,6 @@ export default function NextPager(props: nextPagerProps) {
     const nextPagerRef = useRef<HTMLDivElement>(null);
 
     useEffect(() => {
-        console.log("hi");
         if (!nextPagerRef.current){
             return
         }
