@@ -58,6 +58,7 @@ ul > li {
   transition: opacity 1s ease;
 
   text-align: center;
+  font-size: 0.7rem;
 }
 
 .strategy-item{
