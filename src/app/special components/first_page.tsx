@@ -48,7 +48,7 @@ export default function FirstPage(props: PortfolioFirstPageProps) {
               <img src="1.jpg" className="rounded-full w-1/2 md:w-full"></img>
             </div>
         </div>
-        <div className="w-screen md:w-1/5 h-1/5 md:h-screen bg-gray-600">
+        <div className="w-screen md:w-1/5 h-1/5 md:h-screen bg-gray-800">
         </div>
     </PortfolioSinglePager>
   );
