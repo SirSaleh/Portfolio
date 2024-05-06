@@ -4,6 +4,7 @@ import PortfolioSinglePager from "../common_components/portfolio_single_pager"
 import SkillItem from "../common_components/SkillItem";
 import { ReactNode, useEffect } from 'react';
 import { animateBrick } from "../utils/animations";
+import ContactBar from "./contact_bar";
 
 interface PortfolioFirstPageProps {
 }
@@ -49,6 +50,7 @@ export default function FirstPage(props: PortfolioFirstPageProps) {
             </div>
         </div>
         <div className="w-screen md:w-1/5 h-1/5 md:h-screen bg-gray-800">
+          <ContactBar></ContactBar>
         </div>
     </PortfolioSinglePager>
   );
