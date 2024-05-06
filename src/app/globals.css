@@ -24,7 +24,7 @@ body {
       rgb( (--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
-    overflow-x: hidden; /* Hide scrollbars */
+    overflow-x: hidden; 
 }
 
 h1, h2, h3 {
@@ -37,7 +37,6 @@ ul {
 }
 
 ul > li {
-  /* display: block; */
   margin-right: 10px;
 }
 
