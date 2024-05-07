@@ -46,8 +46,6 @@ team,</li>
                   <li>Conducted unit testing with more than 80% test coverage.,</li>
                   <li>Developed a user-friendly and functional PWA control panel for admins, drivers,
 and customers (cargo owners),</li>
-                  <li>Developed a user-friendly and functional PWA control panel for admins, drivers,
-and customers (cargo owners),</li>
                   <li>Refactored legacy components of the Abrbar system,</li>
                   <li>Implemented a fully-documented deployment pipeline</li>
                 </ul>
