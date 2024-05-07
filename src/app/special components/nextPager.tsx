@@ -18,7 +18,7 @@ export default function NextPager(props: nextPagerProps) {
         }
         // window.innerHeight
         nextPagerRef.current.addEventListener("click", ()=>{
-            const currentPage = Math.floor(Math.abs(document.body.getBoundingClientRect().top) / window.innerHeight);
+            const currentPage = Math.floor((Math.abs(document.body.getBoundingClientRect().top)+1) / window.innerHeight);
             scrollToPosition(window.innerHeight * (currentPage+1));
         });
     }, []);
