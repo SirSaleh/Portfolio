@@ -10,11 +10,11 @@ export default function ContactBar(props: contactBarProps) {
                 left-head
             </div>
             <div className="">
-                <ul className="!list-none flex flex-row md:flex-col text-center">
+                <ul className="!list-none flex flex-row md:flex-col text-center !text-left">
                 <li>
-                    <a className="text-sky-600 underline" href="mailto:animatorsaleh@gmail.com">&#x1F582; animatorsaleh@gmail.com</a>
+                    <a className="underline" href="mailto:animatorsaleh@gmail.com">&#x1F582; <span className="hidden md:inline">animatorsaleh@gmail.com</span></a>
                 </li>
-                    {/* <li><a href="tel:+989197246908">📞</a></li> */}
+                    <li><a href="tel:+989197246908">📞<span className="hidden md:inline">+989197246908</span></a></li>
                 </ul>
             </div>
         </address>
