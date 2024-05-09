@@ -12,7 +12,7 @@ export default function ContactBar(props: contactBarProps) {
             <div className="h-full flex flex-col justify-center md:justify-end">
                 <ul className="!list-none flex flex-row md:flex-col text-center !text-left">
                 <li>
-                    <a className="underline" href="mailto:animatorsaleh@gmail.com">&#x1F582; <span className="hidden md:inline">animatorsaleh@gmail.com</span></a>
+                    <a className="underline" href="mailto:animatorsaleh@gmail.com">✉️<span className="hidden md:inline">animatorsaleh@gmail.com</span></a>
                 </li>
                     <li><a href="tel:+989197246908">📞<span className="hidden md:inline">+989197246908</span></a></li>
                 </ul>
