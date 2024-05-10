@@ -6,6 +6,8 @@
 
 A simple portfolio of mine written in Next.js, licensed under the MIT License. Feel free to use and customize it to fit your preferred theme or workflow.
 
+[🔗 See my live exported Portfolio here](https://sirsaleh.github.io/Portfolio/)
+
 ## To Develop
 
 As mentioned in the default documentation of `Next.js`, you can run:
