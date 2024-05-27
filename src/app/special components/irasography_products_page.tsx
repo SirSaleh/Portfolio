@@ -1,8 +1,6 @@
 "use client"
 
 import PortfolioSinglePager from "../common_components/portfolio_single_pager"
-import { useEffect } from 'react';
-import { animateBrick } from "../utils/animations";
 import { SimplePortfolioGallery } from "../common_components/simple_portfolio_gallery";
 import SkillItem from "../common_components/SkillItem"
 
