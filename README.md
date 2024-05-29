@@ -33,6 +33,14 @@ To learn more about Next.js, take a look at the following resources:
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy the project to the github pages
+## How to Use This Portfolio for Yourself
 
-You can find the nextjs.yml file in the .github/workflows directory, which contains GitHub actions to build the Next.js application and deploy it on GitHub Pages. Feel free to fork the project for your own use or to make contributions.
+You can find the nextjs\.yml file in the \.github/workflows directory, which contains GitHub actions to build the Next.js application and deploy it on GitHub Pages. Feel free to fork this project to create your own portfolio. It's completely free, but giving credit to my username and starring this repo would be appreciated.
+
+
+**Note**: After forking this repository, GitHub Actions will not automatically be active. To activate the actions, follow these steps:
+
+1. Fork the project.
+2. In the forked project, go to the repository settings and select the Actions tab.
+3. In the Actions tab, click the "Enable" button.
+4. In the settings page, go to the Pages tab and ensure the Source dropdown is set to Actions.
