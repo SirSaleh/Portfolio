@@ -44,3 +44,7 @@ You can find the nextjs\.yml file in the \.github/workflows directory, which con
 2. In the forked project, go to the repository settings and select the Actions tab.
 3. In the Actions tab, click the "Enable" button.
 4. In the settings page, go to the Pages tab and ensure the Source dropdown is set to Actions.
+
+After completing the GitHub Actions for the forked repository, your portfolio should be available at https://<your GitHub username>\.github\.io/<your forked project name>."
+
+Feel free to replace <your GitHub username> and <your forked project name> with the actual values relevant to your project. If you have any further questions or need additional assistance, feel free to ask! I'll do my best to help you.
