@@ -12,7 +12,7 @@ export default function BitparsersIncPage(props: BitparsersIncProps) {
     return (
     <PortfolioSinglePager>
         <Credit>
-          Photo Credit: <a 
+          Photo Credit: <a  target="_blank"
             href="https://unsplash.com/photos/city-view-during-nighttime-photography-uhn-U0sSxFQ">
               Alex Shutin - Unsplash
             </a>

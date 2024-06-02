@@ -33,7 +33,7 @@ export default function AbrbarPage(props: AbrbarProps) {
     <PortfolioSinglePager>
         <Credit>
           Photo Credit: 
-          <a href="https://unsplash.com/photos/white-and-blue-truck-on-road-during-daytime-mVqTumQH-c0">
+          <a target="_blank" href="https://unsplash.com/photos/white-and-blue-truck-on-road-during-daytime-mVqTumQH-c0">
             Zetong Li - Unsplash
           </a>
         </Credit>

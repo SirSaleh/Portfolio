@@ -12,7 +12,7 @@ export default function IrasographyPage(props: IrasographyProps) {
     return (
     <PortfolioSinglePager>
         <Credit>
-          Photo Credit: <a
+          Photo Credit: <a target="_blank"
             href="https://unsplash.com/photos/woman-taking-a-high-angle-photo-selective-focus-closeup-photo-AGy0SxTzqr8">
             Li Shanting - unsplash
           </a>
