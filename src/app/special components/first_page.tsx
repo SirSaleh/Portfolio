@@ -25,6 +25,9 @@ export default function FirstPage(props: PortfolioFirstPageProps) {
             <Credit>
               Credit Saleh Salehizadeh
             </Credit>
+            <div className="text-white text-4xl align-middle text-center">
+              Saleh Salehizadeh
+            </div>
             <div className="text-white text-2xl align-middle text-center">
               Full-stack developer
             </div>
