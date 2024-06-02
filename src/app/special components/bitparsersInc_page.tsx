@@ -2,6 +2,8 @@
 
 import PortfolioSinglePager from "../common_components/portfolio_single_pager"
 import SkillItem from "../common_components/SkillItem";
+import Credit from "../common_components/Credit";
+
 
 interface BitparsersIncProps {
 }
@@ -9,6 +11,12 @@ interface BitparsersIncProps {
 export default function BitparsersIncPage(props: BitparsersIncProps) {
     return (
     <PortfolioSinglePager>
+        <Credit>
+          Photo Credit: <a 
+            href="https://unsplash.com/photos/city-view-during-nighttime-photography-uhn-U0sSxFQ">
+              Alex Shutin - Unsplash
+            </a>
+        </Credit>
         <div id="base_bitparsers_page" className="base-bitparsers-page w-full h-screen bg-black">
           <div className="w-screen h-screen flex flex-col justify-center items-center p-4 text-left">
             <div id="bitparsers_description" className="bg-gray-900 bg-opacity-70 rounded-lg overflow-x-hidden overflow-y-scroll w-3/4 text-white m-auto text-sm p-1">

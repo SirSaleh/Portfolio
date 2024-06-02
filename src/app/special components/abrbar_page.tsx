@@ -3,6 +3,7 @@
 import PortfolioSinglePager from "../common_components/portfolio_single_pager"
 import { useEffect } from 'react';
 import { animateBrick } from "../utils/animations";
+import Credit from "../common_components/Credit";
 
 interface AbrbarProps {
 }
@@ -30,6 +31,12 @@ export default function AbrbarPage(props: AbrbarProps) {
 
     return (
     <PortfolioSinglePager>
+        <Credit>
+          Photo Credit: 
+          <a href="https://unsplash.com/photos/white-and-blue-truck-on-road-during-daytime-mVqTumQH-c0">
+            Zetong Li - Unsplash
+          </a>
+        </Credit>
         <div id="base_abrbar_page" className="base-abrbar-page w-full h-screen bg-black">
           <div className="w-screen h-screen flex flex-col justify-center items-center p-4 text-left">
             <div id="abrbar_description" className="bg-gray-900 bg-opacity-70 rounded-lg overflow-x-hidden overflow-y-scroll w-3/4 text-white m-auto text-sm p-1">

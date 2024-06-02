@@ -2,6 +2,7 @@
 
 import PortfolioSinglePager from "../common_components/portfolio_single_pager"
 import SkillItem from "../common_components/SkillItem";
+import Credit from "../common_components/Credit";
 
 interface IrasographyProps {
 }
@@ -10,6 +11,12 @@ export default function IrasographyPage(props: IrasographyProps) {
 
     return (
     <PortfolioSinglePager>
+        <Credit>
+          Photo Credit: <a
+            href="https://unsplash.com/photos/woman-taking-a-high-angle-photo-selective-focus-closeup-photo-AGy0SxTzqr8">
+            Li Shanting - unsplash
+          </a>
+        </Credit>
         <div id="base_irasography_page" className="base-irasography-page w-full h-screen bg-black">
           <div className="w-screen h-screen flex flex-col justify-center items-center p-4 text-left">
             <div id="bitparsers_description" className="bg-gray-900 bg-opacity-70 rounded-lg overflow-x-hidden overflow-y-scroll w-3/4 text-white m-auto text-sm p-1">

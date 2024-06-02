@@ -2,6 +2,7 @@
 
 import PortfolioSinglePager from "../common_components/portfolio_single_pager"
 import SkillItem from "../common_components/SkillItem";
+import Credit from "../common_components/Credit";
 import { ReactNode, useEffect } from 'react';
 import { animateBrick } from "../utils/animations";
 import ContactBar from "./contact_bar";
@@ -21,9 +22,9 @@ export default function FirstPage(props: PortfolioFirstPageProps) {
     return (
     <PortfolioSinglePager>
         <div className="flex relative flex-col justify-center w-full md:w-4/5 h-4/5 md:h-screen bg-black">
-            <div className="text-white relative text-5xl align-middle text-center">
-              Saleh Salehizadeh
-            </div>
+            <Credit>
+              Credit Saleh Salehizadeh
+            </Credit>
             <div className="text-white text-2xl align-middle text-center">
               Full-stack developer
             </div>
