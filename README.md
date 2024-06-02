@@ -41,10 +41,23 @@ You can find the nextjs\.yml file in the \.github/workflows directory, which con
 **Note**: After forking this repository, GitHub Actions will not automatically be active. To activate the actions, follow these steps:
 
 1. Fork the project.
-2. In the forked project, go to the repository settings and select the Actions tab.
-3. In the Actions tab, click the "Enable" button.
-4. In the settings page, go to the Pages tab and ensure the Source dropdown is set to Actions.
+2. In the forked project, go to the actions tab and then click on the **I understand my workflows, go ahead and enable them**:
 
-After completing the GitHub Actions for the forked repository, your portfolio should be available at https://<your GitHub username>\.github\.io/<your forked project name>."
+![Actions Tab Image](public/Pics/readme/1.actions_tab.jpg "Actions Tab Image")
 
-Feel free to replace <your GitHub username> and <your forked project name> with the actual values relevant to your project. If you have any further questions or need additional assistance, feel free to ask! I'll do my best to help you.
+3. Click on the run the workflow in the very right side of the page and in the dropdown menu click on the **Run Workflow**:
+
+![Start the workflow](public/Pics/readme/2.run_workflow.jpg "Start the workflow")
+
+3. Wait for the workflow steps to run:
+
+![Wait for steps](public/Pics/readme/3.wait_to_run.jpg "Wait for steps")
+
+4. Make sure tasks ran successfuly:
+
+![Run completed](public/Pics/readme/4.run_completed.jpg "Run completed")
+
+
+5. After completing the GitHub Actions for the forked repository, your portfolio should be available at https://\<your GitHub username\>\.github\.io/\<your forked project name\>."
+
+Feel free to replace <your GitHub username> and <your forked project name> with the actual values relevant to your project. for example [https://sirsaleh.github.io/Portfolio/](https://sirsaleh.github.io/Portfolio/). If you have any further questions or need additional assistance, feel free to ask! I'll do my best to help you. 
