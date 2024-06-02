@@ -7,7 +7,7 @@ interface PortfolioSinglePagerProps {
 export default function PortfolioSinglePager(props: PortfolioSinglePagerProps) {
 
     return (
-    <div className="w-screen h-screen w-full flex flex-wrap">
+    <div className="relative w-screen h-screen w-full flex flex-wrap">
         {props.children}
     </div>
   );
