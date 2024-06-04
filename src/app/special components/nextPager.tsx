@@ -24,7 +24,7 @@ export default function NextPager(props: nextPagerProps) {
     }, []);
 
     return (
-        <div className="select-none fixed bottom-5 left-4 bg-white text-black hover:bg-gray-600 hover:shadow-lg transition duration-500 ease-in-out rounded-full p-5 cursor-pointer" ref={nextPagerRef}>
+        <div className="select-none fixed z-10 bottom-5 left-4 bg-white text-black hover:bg-gray-600 hover:shadow-lg transition duration-500 ease-in-out rounded-full p-5 cursor-pointer" ref={nextPagerRef}>
             &#x25BC;
         </div>
   );
