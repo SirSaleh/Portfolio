@@ -22,7 +22,7 @@ export default function BitparsersIncPage(props: BitparsersIncProps) {
             <div id="bitparsers_description" className="bg-gray-900 bg-opacity-70 rounded-lg overflow-x-hidden overflow-y-scroll w-3/4 text-white m-auto text-sm p-1">
               <div>
                 <p>
-                  Bitparsers is a tech company located in Toronto, Canada. As a full-stack web developer and programmer at this company, I had a variety of responsibilities, including:
+                  Bitparsers (former shinbob) is a tech company located in Toronto, Canada. As a full-stack web developer and programmer at this company, I had a variety of responsibilities, including:
                 </p>
                 <ul style={{ listStyleType: 'disc' }}>
                   <li>Planned customers&apos; use cases,</li>
